@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root{
+    --cor00: #FF4E00;
+    --cor01: #E64600;
+    --cor02: #BF3A00;
+    --cor03: #802700;
+    --cor04: #401300;
+    --fundo: rgb(255, 212, 157);
+    
+}
+
+body{
+    background-color: var(--cor00);
+}
+

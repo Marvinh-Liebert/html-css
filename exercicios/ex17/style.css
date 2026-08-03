@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'london'; 
+     src: url('old_london/OldLondon.ttf') format('opentype'), url(old_london/OldLondonAlternate.ttf) format('truetype');
+}
+
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #CC3A00, #FF7E49);
+}
+
+main{
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 20px 20px 20px #7F2400;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    background-color: #7F2400;
+    color: #FF7E49;
+    font-family: 'london';
+}
+
+p{
+    text-align: justify;
+}

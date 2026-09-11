@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+        }
+        fieldset{
+            padding: 20px 50px;
+            margin: auto;
+            width: 100px;
+            border-radius: 10px;
+        }
+        p{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" autocomplete="off" method="post">
+        <fieldset>
+            <legend>Dados Necessários</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" required autocomplete="name" placeholder="Nome">
+            </p>
+            <P>
+                <label for="iemail">email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="seu-email@email.com" >
+            </P>
+            <p>
+                <label for="itel">telefone:</label>
+                <input type="tel" name="telefone" id="itel" required autocomplete="tel" placeholder="(12) 12345-1234">
+            </p>
+            <p>
+                <input type="submit" value="fazer pacto">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

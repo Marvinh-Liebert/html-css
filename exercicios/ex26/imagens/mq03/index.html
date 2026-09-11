@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*geral*/
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1{
+            color: white;
+        }
+
+        /*retrato*/
+        @media screen and (orientation: portrait) {
+            body, html{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-image: url(../cev-portrait.jpg);
+                background-position: center bottom;
+            }
+
+            h1{
+                text-shadow: 2px 2px 6px black;
+            }
+        }
+
+        /*paisagem*/
+        @media screen and (orientation: landscape) {
+            body, html{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-image: url(../cev-landscape.jpg);
+                background-position: center bottom;
+            }
+
+            h1{
+                text-shadow: 2px 2px 7px black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>mudando a orientação da tela</h1>
+</body>
+</html>

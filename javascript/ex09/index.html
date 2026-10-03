@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Qual seu páis? <input type="text" name="pais" id="pais">
+    <input type="button" value="enviar" onclick="vc()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function vc(){
+            var country = window.document.getElementById('pais')
+            var pais = String(country.value)
+            var res = window.document.getElementById('res')
+            res.innerHTML = 'Você'
+
+        
+            if (pais == 'brasil'){
+                res.innerHTML += ' é Brasileiro!'
+            } else {
+                res.innerHTML += ' não é Brasileiro!'
+            }
+        }
+    </script>
+</body>
+</html>

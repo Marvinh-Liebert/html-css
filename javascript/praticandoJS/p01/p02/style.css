@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(111, 145, 175);
+}
+
+
+header{
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+main{
+    background-color: aliceblue;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+}

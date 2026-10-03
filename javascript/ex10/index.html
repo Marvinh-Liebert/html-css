@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Digite a sua idade logo abaixo:</h2>
+    <input type="number" name="idade" id="idade">
+    <input type="button" value="enviar" onclick="voto()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function voto(){
+            var idad = window.document.getElementById('idade')
+            var anos = Number(idad.value)
+            var res = window.document.getElementById('res')
+        
+        
+            if (anos < 16){
+                res.innerHTML = 'Você é menor de idade, ainda não pode votar.'
+            } else if (anos < 18) {
+                res.innerHTML = 'Você já pode votar, o voto é opcional.'
+            } else {
+                res.innerHTML = 'Você é maior de idade, o voto é obrigatório.'
+            }
+        }
+    </script>
+</body>
+</html>

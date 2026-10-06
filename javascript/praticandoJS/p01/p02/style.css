@@ -25,3 +25,15 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 4px black;
 }
+
+.ficha{
+    padding: 5px 0px;
+    font-size: 1.1em;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 1.2em;
+}

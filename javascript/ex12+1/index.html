@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador Machine</h1>
+    </header>
+
+    <main>
+        <form action="#">
+            <div>
+                <label for="inicio">Início</label>
+                <input type="number" name="inicio" id="inicio">
+            </div>
+
+            <div>
+                <label for="fim">Fim</label>
+                <input type="number" name="fim" id="fim">
+            </div>
+
+            <div>
+                <label for="pulos">Pulos</label>
+                <input type="number" name="pulos" id="pulos">
+            </div>
+
+            <div>
+                <input type="button" value="iniciar" onclick="cont()">
+            </div>
+        </form>
+
+        <div id="res" >
+            Preencha as caixas a cima e pressione "iniciar"!
+        </div>
+    </main>
+
+    <footer>
+        <p>Praticando JS</p>
+        <p>Laços de repetições</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
